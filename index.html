@@ -14,17 +14,19 @@
     <header>
       <div>
         <button onclick="openBurgerMenu"></button>
-        <div>
+        <a href="#">
           <img src="./assets/images/Logo.svg" alt="logotip" />
-        </div>
+        </a>
         <a download="test.txt" href="./assets/files/test.txt">Download</a>
       </div>
     </header>
     <main>
-      <h1 style="display: none">Main Title</h1>
-      <section>
+      <h1 class="visually-hidden">Main Title</h1>
+      <section class="hero">
         <div class="hero-description">
-          <h2 class="hero-description__header">A Great App Makes Your Life Better</h2>
+          <p class="hero-description__header">
+            A Great App Makes Your Life Better
+          </з>
           <p class="hero-description__text">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit.
@@ -57,15 +59,21 @@
         <ul class="about-app-list">
           <li class="about-app-list__item">
             <h3 class="about-app-list__header">Creative design</h3>
-            <p class="about-app-list__text">Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+            <p class="about-app-list__text">
+              Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+            </p>
           </li>
           <li class="about-app-list__item">
             <h3 class="about-app-list__header">Easy to use</h3>
-            <p class="about-app-list__text">Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+            <p class="about-app-list__text">
+              Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+            </p>
           </li>
           <li class="about-app-list__item">
             <h3 class="about-app-list__header">Best user experince</h3>
-            <p class="about-app-list__text">Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+            <p class="about-app-list__text">
+              Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+            </p>
           </li>
         </ul>
       </section>
@@ -294,7 +302,9 @@
         </ul>
       </nav>
       <h2 class="text-left">news letter</h2>
-      <p class="text-left">Subscribe our newsletter to get our latest update & news</p>
+      <p class="text-left">
+        Subscribe our newsletter to get our latest update & news
+      </p>
       <form method="POST">
         <input type="text" placeholder="Your email address" />
         <button>
