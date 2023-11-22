@@ -1,0 +1,89 @@
+@import url(./common.css);
+
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+
+.hero {
+}
+
+.hero-description {
+  text-align: left;
+}
+
+.hero-description__header {
+  color: var(--Royal-blue);
+  text-align: left;
+}
+
+.hero-description__text {
+  color: var(--fg-gray-p);
+}
+
+.about-app {
+}
+.about-app__header {
+  color: var(--fg-black);
+}
+
+.about-app__text {
+  text-align: center;
+  color: var(--fg-gray-p);
+}
+
+.about-app-list {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+}
+
+.about-app-list__item {
+  padding: 18px 19px 10px 19px;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.about-app-list__header {
+  position: relative;
+  color: var(--fg-black);
+  margin-left: 41px;
+}
+
+.about-app-list__header::before {
+  content: url("../images/vectors/check-mark.svg");
+  position: absolute;
+  left: -41px;
+}
+
+.about-app-list__text {
+  color: var(--fg-gray-p);
+  margin-top: 3px;
+}
+
+.features {
+  color: white;
+  background-image: url("../images/backgrounds/features.png");
+  text-align: center;
+  padding: 60px 39px;
+}
+
+.features__header {
+}
+
+.features__text {
+  margin-top: 18px;
+}
+
+.features-list {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 40px;
+}
+
+.features-list__item {
+    
+}

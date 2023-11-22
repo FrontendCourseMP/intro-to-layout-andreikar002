@@ -4,27 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lab1</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Josefin Sans"
+    />
   </head>
   <body>
     <header>
       <div>
         <button onclick="openBurgerMenu"></button>
-        <div>
+        <a href="#">
           <img src="./assets/images/Logo.svg" alt="logotip" />
-        </div>
+        </a>
         <a download="test.txt" href="./assets/files/test.txt">Download</a>
       </div>
     </header>
     <main>
-      <h1 style="display: none">Main Title</h1>
-      <section>
-        <div>
-          <h2>A Great App Makes Your Life Better</h2>
-          <p>
+      <h1 class="visually-hidden">Main Title</h1>
+      <section class="hero">
+        <div class="hero-description">
+          <p class="hero-description__header">
+            A Great App Makes Your Life Better
+          </з>
+          <p class="hero-description__text">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit.
           </p>
-          <p>Download App Now</p>
+          <h3 class="text-left">Download App Now</h3>
           <div>
             <a href="#"
               ><img
@@ -42,29 +49,35 @@
         </div>
         <img src="./assets/images/mobaile.png" width="512" alt="mobail app" />
       </section>
-      <section>
-        <h2>About Our App</h2>
-        <p>
+      <section class="about-app">
+        <h2 class="about-app__header">About Our App</h2>
+        <p class="about-app__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
           ante velit vitae.
         </p>
         <img src="./assets/images/AppDesign.png" alt="app design" />
-        <ul>
-          <li>
-            <h3>Creative design</h3>
-            <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+        <ul class="about-app-list">
+          <li class="about-app-list__item">
+            <h3 class="about-app-list__header">Creative design</h3>
+            <p class="about-app-list__text">
+              Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+            </p>
           </li>
-          <li>
-            <h3>Easy to use</h3>
-            <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+          <li class="about-app-list__item">
+            <h3 class="about-app-list__header">Easy to use</h3>
+            <p class="about-app-list__text">
+              Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+            </p>
           </li>
-          <li>
-            <h3>Best user experince</h3>
-            <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+          <li class="about-app-list__item">
+            <h3 class="about-app-list__header">Best user experince</h3>
+            <p class="about-app-list__text">
+              Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+            </p>
           </li>
         </ul>
       </section>
-      <section>
+      <section class="features">
         <h2>App features</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
@@ -122,8 +135,8 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Download App Now</h2>
+      <section class="text-left">
+        <h2 class="text-left">Download App Now</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
           ante velit vitae. Est tellus vitae, nullam lobortis enim.
@@ -148,23 +161,23 @@
               src="./assets/images/vectors/download.svg"
               alt="download vector"
             />
-            <h3>59865</h3>
+            <p>59865</p>
             <p>Download</p>
           </li>
           <li>
             <img src="./assets/images/vectors/like.svg" alt="like vector" />
-            <h3>29852</h3>
+            <p>29852</p>
             <p>Like</p>
           </li>
           <li>
             <img src="./assets/images/vectors/star.svg" alt="star vector" />
-            <h3>1500</h3>
+            <p>1500</p>
             <p>5 star rating</p>
           </li>
         </ul>
         <img src="/assets/images/AppDesgin2.png" alt="app design example" />
       </section>
-      <section>
+      <section class="text-center">
         <h2>how to use the app perfectly</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
@@ -172,7 +185,7 @@
         </p>
         <video src="./assets/video"></video>
       </section>
-      <section>
+      <section class="text-center">
         <h2>Our Happy Cutomar</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
@@ -180,6 +193,7 @@
         </p>
         <div>
           <h3>Ann Lubin</h3>
+          <!-- 2.5rem -->
           <h4>CO-FUNDER</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
@@ -194,13 +208,13 @@
           <li><button></button></li>
         </ul>
       </section>
-      <section>
+      <section class="text-center">
         <h2>Our recent blog</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
           ante velit vitae.
         </p>
-        <ul>
+        <ul class="text-left">
           <li>
             <img src="./assets/images/snap_chat.png" alt="Snap Pixel" />
             <h3>The Snap Pixel: How It Works and How to Install</h3>
@@ -232,7 +246,7 @@
       </section>
     </main>
     <footer>
-      <div>
+      <div class="text-center">
         <a href="mailto:some@some.com"
           ><img src="./assets/images/vectors/letter.svg" alt="mail"
         /></a>
@@ -243,12 +257,12 @@
         /></a>
         <a href="tel:+8803216559985">+880 321 655 9985</a>
       </div>
-      <h2>Logo</h2>
-      <p>
+      <h2 class="text-left">Logo</h2>
+      <p class="text-left">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
         ante velit vitae. Est tellus vitae, nullam lobortis enim.
       </p>
-      <ul>
+      <ul class="text-left">
         <li>
           <a href="#"
             ><img
@@ -278,8 +292,8 @@
           /></a>
         </li>
       </ul>
-      <nav>
-        <h2>quick link</h2>
+      <nav class="text-left">
+        <h2 class="text-left">quick link</h2>
         <ul>
           <li><a href="#">About</a></li>
           <li><a href="#">Features</a></li>
@@ -287,8 +301,10 @@
           <li><a href="#">Blog</a></li>
         </ul>
       </nav>
-      <h2>news letter</h2>
-      <p>Subscribe our newsletter to get our latest update & news</p>
+      <h2 class="text-left">news letter</h2>
+      <p class="text-left">
+        Subscribe our newsletter to get our latest update & news
+      </p>
       <form method="POST">
         <input type="text" placeholder="Your email address" />
         <button>
@@ -296,7 +312,7 @@
         </button>
       </form>
       <hr />
-      <div>
+      <div class="text-center">
         <img src="./assets/images/vectors/copyright.svg" alt="copyright" />
         <p>Copyright 2021 .Ojjomedia. All Right Reserved.</p>
       </div>
